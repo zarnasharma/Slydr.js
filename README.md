@@ -1,2 +1,2 @@
 # Slydr.js
-Make anything a slideshow
+Make anything a slider
