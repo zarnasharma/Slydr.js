@@ -1,3 +1,4 @@
+/*AUTHOR: Zarna Alpesh Sharma*/
 var slides = document.getElementsByClassName("slide");
 var nextBtn = document.getElementById("next"); //FORWARD BUTTON
 var backBtn = document.getElementById("previous"); //BACKWARD BUTTON
