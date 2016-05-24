@@ -6,19 +6,13 @@ var sliderHolder = document.getElementById("mainCarouselHolder");
 var arrayIndex = 0;
 var maxLimit = slides.length-1;
 var sliderArray = [].slice.call(slides);
-console.log(sliderArray);
 
 function goForward() {
-    console.log("slides array index - "+sliderArray[arrayIndex].innerHTML);
-    console.log("Before increment arrayIndex is - "+arrayIndex);
-    console.log("Slider element - "+sliderArray[arrayIndex].innerHTML);
     arrayIndex++;
-    console.log("On clicking forward arrayIndex is - "+arrayIndex);
     if(arrayIndex > maxLimit)
     {
         arrayIndex = 0;
     }
-    console.log("Slider element - "+sliderArray[arrayIndex].innerHTML);
     sliderHolder.innerHTML = sliderArray[arrayIndex].innerHTML;
 }
 function goBackwards()
